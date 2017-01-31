@@ -1,0 +1,30 @@
+//imports fonts
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:300,400,600,700,800|Roboto:400,700,500i');
+
+//Colores
+
+$azul-oscuro: #164173;
+$celeste: #488BD9;
+$azul-claro:#1B518F;
+$blanco:#FFF;
+$verde:#93CD50;
+$anaranjado:#F68923;
+$rojo:#D63448;
+
+
+//Fuentes
+$font-titulo:'Open Sans',sans-serif;
+$font-subtitulo:'Roboto',sans-serif;
+$font-texto:'Roboto',sans-serif;
+$font-nav:'Lato',sans-serif;
+
+  @import "sass/fonts";
+  @import "sass/reset";
+  @import "sass/nav";
+  @import "sass/header";
+  @import "sass/footer";
+  @import "sass/main";
+  @import "sass/jadra";
+  @import "sass/charls";
+
+

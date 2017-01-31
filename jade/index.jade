@@ -1,0 +1,163 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    //- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags
+    title Bootstrap
+    //- Bootstrap
+    link(href='css/bootstrap.min.css', rel='stylesheet')
+    link(href='css/styles.css', rel='stylesheet')
+    link(href='css/font-awesome.min.css' rel='stylesheet')
+    //- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    //- WARNING: Respond.js doesn't work if you view the page via file://
+    //-if lt IE 9
+      script(src='https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js')
+      script(src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js')
+  body
+    .container
+        header.header-servired
+            .row
+                .caja.col-xs-9
+                    h1.titulo-fondo-verde FONORED Información especializada 
+                    h1.titulo-fondo-cyan sobre la ubicación de redes de Gas Natural 
+                    h1.titulo-fondo-cyan-dos y Gas de Ciudad
+        nav.navbar-servired
+            ul.menu-top.col-xs-12
+                li.menu-principal
+                    a(href="#que-es") ¿Qué es Fonored? 
+                li.menu-principal
+                    a(href="#call-center") Call Center 
+                li.menu-principal
+                    a(href="#redes-gas") Las redes de gas
+                li.menu-principal
+                    a(href="#caracteristicas") El gas natural
+                li.menu-principal
+                    a(href="#consejos") En caso de fuga
+        section.queesfonored#que-es
+            .row
+                .col-xs-7.texto-quees
+                    h4.titulo-azul ¿Qué es Fonored?
+                    p.texto-primario
+                        |   Es un servicio expedito y gratuito de información especializada sobre la existencia y ubicación referencial de toda la red de tuberías de Metrogas, dirigido especialmente a aquellas personas y empresas que realicen intervenciones en el subsuelo. Su principal objetivo es evitar los eventuales daños que por desconocimiento podrían provocarse en las instalaciones subterráneas de Metrogas, poniendo en riesgo el suministro de gas y la seguridad de las personas. FONORED está disponible las 24 horas, los 365 días del año.<br><br>
+                    p.sub-texto-1
+                        |   Llama siempre antes de excavar
+                    p.numero-telefono
+                        |   800 363 000
+                    p.texto-telefono
+                        |   Desde celulares: (2) 2337 8060
+                    p.letrachica
+                        |   Servicio gratuito para los números 800 disponible las 24 horas, los 365 días del año.
+                .col-xs-5
+                    img(src="img/img_01.jpg")
+        section.call-center#call-center
+            .row
+                .col-xs-12
+                    .marco-texto
+                        .borde
+                            p.texto-titulo-blanco Call Center Fonored
+                            p.texto-numero-blanco 800 363 000
+                            p.bajada-numero-blanco Desde celulares 
+                                span (2) 2337 8060
+        section.las-redes-gas#redes-gas
+            .row
+                .col-xs-5.img-nopadding
+                    img(src="img/img_02.jpg")
+                .col-xs-7.cuadro-nopadding
+                    .texto-lasredesgas
+                        h4.titulo-azul LAS REDES DE GAS NATURAL
+                        p.subtitulo El gas  natural se distribuye a través de<br> una red de tuberías subterráneas de acero,<br> polietileno y cobre.
+                        ul
+                            li.listado <span>1</span> Superficie <br>(hormigón, jardin, tierra, etc.)
+                            li.listado <span>2</span> Cinta de advertencia de gas <br> (en algunos lugares esta señalética podría no existir)
+                            li.listado <span>3</span> Relleno compactado
+                            li.listado <span>4</span> Trazador  <br>(en algunos lugares puede no existir)
+                            li.listado <span>5</span> Tubería de gas / red terciaria gn <br>(polietileno / cobre / acero / fierro fundido)
+                            li.listado <span>6</span> Tubería de gas red primaria <br> o secundaria: acero
+                            li.listado <span>7</span> Arena
+                        p.letrachica Esta disposición típica podría variar en algunos casos, información que <br> será entregada oportunamente por el supervisor FONORED <br> que lo atenderá.
+        section.caracteristicas-gas#caracteristicas
+            .row
+                .col-xs-7.texto-caracteristicas
+                    h4.titulo-blanco Características del<br> gas natural
+                    p.subtitulo El gas natural es una mezcla gaseosa<br> combustible de hidrocarburos.
+                    ul
+                        li.listado <span>1</span> No tiene sabor ni olor (se le incorpora una sustancia llamada<br> odorante, cuyo aroma es similar al de un huevo podrido).
+                        li.listado <span>2</span> Es más liviano que el aire.
+
+                        li.listado <span>3</span> No es tóxico.
+
+                        li.listado <span>4</span> Es inflamable sólo en caso de que exista presencia de<br> combustible, oxígeno y calor. Si falta cualquiera de ellos,<br> simplemente no hay combustión.
+                .col-xs-5
+                    img.grafico(src="img/img_01.png")
+                    h5 Composición del gas natural
+                    ul.colores
+                        li <i class="fa fa-circle" style="color:#2E8AE0"></i> Metano 92% aprox.
+
+                        li <i class="fa fa-circle" style="color:#51B03B"></i> Etano 4% aprox
+
+                        li <i class="fa fa-circle" style="color:#F4D82A"></i> Propano 1% aprox
+
+                        li <i class="fa fa-circle" style="color:#ED911A"></i> Butano 0,4% aprox 
+
+                        li <i class="fa fa-circle" style="color:#F64612"></i> Nitrógeno 0,9% aprox
+
+                        li <i class="fa fa-circle" style="color:#8252AA"></i> Dióxido de Carbono 1,7% aprox.
+        section.consejos#consejos
+            h4.titulo-blanco Consejos en caso de fuga.
+            p.subtitulo-blanco Si sospechas que existe una fuga de gas, recuerda lo siguiente:
+            .row
+                .col-xs-3
+                    img.icons(src="img/icon_01.png")
+                    p.texto-primario-blanco Evacua a todas las<br> personas del área afectada por la fuga de gas.
+                .col-xs-3
+                    img.icons(src="img/icon_02.png")
+                    p.texto-primario-blanco No enciendas ni apagues interruptores eléctricos o electrodomésticos.
+                .col-xs-3
+                    img.icons(src="img/icon_03.png")
+                    p.texto-primario-blanco Llama al (2) 2337 8000, o nuestro servicio FONORED <br>al (2) 2337 8060 o <br>comunícate con Bomberos<br> al 132, desde un teléfono fuera del área afectada por <br>la fuga.
+                .col-xs-3
+                    img.icons(src="img/icon_04.png")
+                    p.texto-primario-blanco No utilices un teléfono u<br> otro tipo de equipo<br> electrónico que funcione <br>con baterías.
+            .row
+                .col-xs-3
+                    img.icons(src="img/icon_05.png")
+                    p.texto-primario-blanco Acordona el perímetro <br>del área afectada por la fuga de gas.
+                .col-xs-3
+                    img.icons(src="img/icon_06.png")
+                    p.texto-primario-blanco No enciendas fósforos ni encendedores para fumar.
+                .col-xs-3
+                    img.icons(src="img/icon_07.png")
+                    p.texto-primario-blanco No enciendas automóviles ni maquinarias cerca del lugar donde exista una fuga de gas.
+                .col-xs-3
+                    img.icons(src="img/icon_08.png")
+                    p.texto-primario-blanco En el caso de las empresas excavadoras, deberán dar <br>aviso a Metrogas cuando <br> se haya generado un daño<br> a la tubería, independiente<br> si existe fuga o no.
+        section.bloques-finales#finales
+            .row
+                .col-xs-6.bloque-izquierdo
+                    .izquierda
+                        h3.titulo-blanco Call center Metrogas
+                        p.texto-bloques Llama en caso de emergencia o<br> si tienes una consulta
+                        p.numero-bloques 800 337 8000
+                        p.bajada-bloques Desde celulares 
+                            span (2) 2337 8000
+
+                .col-xs-6.bloque-derecho
+                    .derecha
+                        h3.titulo-blanco Emergencias Fonored
+                        p.texto-bloques Comunícate sólo si vas a realizar un trabajo en tu casa y este pueda interferir con la red de gas.
+                        p.numero-bloques 800 363 000
+                        p.bajada-bloques Desde celulares 
+                            span (2) 2337 8060
+        section.banda-blanca
+            .row
+                .col-xs-10
+                    p Solicita información a FONORED, llamando desde celulares al<br> (2) 2337 8060, escribiendo a fonored@metrogas.cl o visitando nuestro <br> sitio www.metrogas.cl/fonored
+                .col-xs-2
+                    img(src="img/logo.png")
+
+    //- jQuery (necessary for Bootstrap's JavaScript plugins)
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+    //- Include all compiled plugins (below), or include individual files as needed
+    script(src='js/bootstrap.min.js')
+    script(src='js/funciones.js')

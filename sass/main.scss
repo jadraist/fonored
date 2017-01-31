@@ -1,0 +1,52 @@
+p{
+	color:$azul-oscuro;
+}
+.titulo-azul{
+	font-family: $font-titulo;
+	color:$azul-oscuro;
+	font-weight:300;
+	font-size:32px;
+	margin-bottom:20px;
+	text-transform:uppercase;
+}
+.titulo-blanco{
+	font-family: $font-titulo;
+	color:$blanco;
+	font-weight:300;
+	font-size:32px;
+	margin-bottom:20px;
+	line-height:45px;
+	text-transform:uppercase;
+}
+.texto-primario{
+	font-family: $font-texto;
+	color:$azul-oscuro;
+	font-weight:regular;
+	line-height:20px;
+	font-size:13px;
+}
+.texto-primario-blanco{
+	font-family: $font-texto;
+	color:$blanco;
+	font-weight:regular;
+	line-height:20px;
+	font-size:13px;
+}
+.subtitulo{
+	font-size: 14px;
+	font-weight: 700;
+	color:$azul-oscuro;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin-bottom:40px;
+	font-family: $font-titulo;
+}
+.subtitulo-blanco{
+	font-size: 14px;
+	font-weight: 700;
+	color:$blanco;
+	line-height: 20px;
+	letter-spacing: 1px;
+	margin-bottom:40px;
+	font-family: $font-titulo;
+}

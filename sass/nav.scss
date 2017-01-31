@@ -1,0 +1,25 @@
+.menu-top{
+	background-color:$azul-oscuro;
+	font-family:$font-nav;
+	font-weight:400;
+	display:inline-block;
+	width:100%;
+	max-height:60px;
+	padding: 0 65px;
+	.menu-principal{
+		display: table-cell;
+    	width: 1%;
+    	text-align: center;
+    	a{
+    		padding:20px 10px !important; 
+    		color:$blanco;
+    		display: block;
+    		&:hover{
+    			background-color:$azul-claro;
+    		}
+    		&:active,&:focus{
+    			text-decoration: none;
+    		}
+    	}
+	}
+}

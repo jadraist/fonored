@@ -1,0 +1,109 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Lato:700|Open+Sans:300,400,600,700,800|Roboto:400,700,500i");
+@font-face { font-family: 'montserratblack'; src: url("../fonts/montserrat-black-webfont.woff2") format("woff2"), url("../fonts/montserrat-black-webfont.woff") format("woff"), url("../fonts/montserrat-black-webfont.ttf") format("truetype"), url("../fonts/montserrat-black-webfont.svg#montserratblack") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'montserratbold'; src: url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype"), url("../fonts/montserrat-bold-webfont.svg#montserratbold") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'montserratlight'; src: url("../fonts/montserrat-light-webfont.woff2") format("woff2"), url("../fonts/montserrat-light-webfont.woff") format("woff"), url("../fonts/montserrat-light-webfont.ttf") format("truetype"), url("../fonts/montserrat-light-webfont.svg#montserratlight") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'montserratregular'; src: url("../fonts/montserrat-regular-webfont.woff2") format("woff2"), url("../fonts/montserrat-regular-webfont.woff") format("woff"), url("../fonts/montserrat-regular-webfont.ttf") format("truetype"), url("../fonts/montserrat-regular-webfont.svg#montserratregular") format("svg"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'montserratthin'; src: url("../fonts/montserrat-thin-webfont.woff2") format("woff2"), url("../fonts/montserrat-thin-webfont.woff") format("woff"), url("../fonts/montserrat-thin-webfont.ttf") format("truetype"), url("../fonts/montserrat-thin-webfont.svg#montserratthin") format("svg"); font-weight: normal; font-style: normal; }
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.menu-top { background-color: #164173; font-family: "Lato", sans-serif; font-weight: 400; display: inline-block; width: 100%; max-height: 60px; padding: 0 65px; }
+.menu-top .menu-principal { display: table-cell; width: 1%; text-align: center; }
+.menu-top .menu-principal a { padding: 20px 10px !important; color: #FFF; display: block; }
+.menu-top .menu-principal a:hover { background-color: #1B518F; }
+.menu-top .menu-principal a:active, .menu-top .menu-principal a:focus { text-decoration: none; }
+
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; font-family: 'Roboto',sans-serif; }
+body .container { max-width: 960px !important; min-width: 960px !important; padding-left: 0; padding-right: 0; }
+
+h1 { font-family: 'montserratblack'; font-size: 2em; }
+
+.header-servired { width: 960px; height: 356px; background: url(../img/header.jpg) no-repeat; }
+.header-servired .caja { padding: 190px 80px 10px; }
+.header-servired .caja .titulo-fondo-verde { font-family: "Roboto", sans-serif; color: #fff; padding: 10px 10px; background-color: #164173; font-size: 28px; display: inline; margin-bottom: 15px; font-weight: 600; }
+.header-servired .caja .titulo-fondo-cyan, .header-servired .caja .titulo-fondo-cyan-dos { font-family: "Roboto", sans-serif; color: #fff; padding: 10px 10px 10px 10px; margin: 0px 0 0px 0; display: inline-block; font-size: 28px; background-color: #488BD9; font-weight: 600; }
+.header-servired .caja .titulo-fondo-cyan { margin-top: 10px; padding-bottom: 10px; padding-top: 13px; }
+
+p { color: #164173; }
+
+.titulo-azul { font-family: "Open Sans", sans-serif; color: #164173; font-weight: 300; font-size: 32px; margin-bottom: 20px; text-transform: uppercase; }
+
+.titulo-blanco { font-family: "Open Sans", sans-serif; color: #FFF; font-weight: 300; font-size: 32px; margin-bottom: 20px; line-height: 45px; text-transform: uppercase; }
+
+.texto-primario { font-family: "Roboto", sans-serif; color: #164173; font-weight: regular; line-height: 20px; font-size: 13px; }
+
+.texto-primario-blanco { font-family: "Roboto", sans-serif; color: #FFF; font-weight: regular; line-height: 20px; font-size: 13px; }
+
+.subtitulo { font-size: 14px; font-weight: 700; color: #164173; line-height: 20px; letter-spacing: 1px; margin-bottom: 40px; font-family: "Open Sans", sans-serif; }
+
+.subtitulo-blanco { font-size: 14px; font-weight: 700; color: #FFF; line-height: 20px; letter-spacing: 1px; margin-bottom: 40px; font-family: "Open Sans", sans-serif; }
+
+.queesfonored { margin-top: 55px; color: #164173; }
+.queesfonored .texto-quees { padding: 80px 80px 65px 80px; }
+.queesfonored .texto-quees .sub-texto-1 { margin-top: 20px; font-family: "Open Sans", sans-serif; font-size: 11px; font-weight: bold; }
+.queesfonored .texto-quees .numero-telefono { font-size: 20px; font-weight: 800; margin-top: 15px; }
+.queesfonored .texto-quees .texto-telefono { font-family: "Open Sans", sans-serif; font-weight: 400; margin-top: 5px; }
+.queesfonored .texto-quees .letrachica { font-family: "Open Sans", sans-serif; font-size: 9px; margin-top: 15px; }
+.queesfonored img { width: 100%; }
+
+.call-center { text-align: center; margin-top: -3px; padding: 80px 80px; background: url(../img/bg_02.jpg) no-repeat; }
+.call-center .marco-texto { color: #FFF; background: #164173; box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5); border-radius: 10px; padding: 15px; }
+.call-center .marco-texto .borde { padding: 15px; border: 2px solid #FFF; border-radius: 10px; }
+.call-center .marco-texto .borde .texto-titulo-blanco { /* Heading Alt 2: */ font-family: OpenSans-Bold; font-size: 25px; color: #FFF; margin-bottom: 15px; }
+.call-center .marco-texto .borde .texto-numero-blanco { font-size: 27px; color: #FFF; margin-bottom: 10px; }
+.call-center .marco-texto .borde .bajada-numero-blanco { font-size: 15px; color: #FFF; }
+.call-center .marco-texto .borde .bajada-numero-blanco span { font-weight: 600; }
+
+.las-redes-gas { background-color: #164173; }
+
+.las-redes-gas .texto-lasredesgas, .las-redes-gas .texto-caracteristicas, .caracteristicas-gas .texto-lasredesgas, .caracteristicas-gas .texto-caracteristicas, .consejos .texto-lasredesgas, .consejos .texto-caracteristicas { padding: 80px 55px 55px 80px; }
+.las-redes-gas .texto-lasredesgas .subtitulo, .las-redes-gas .texto-caracteristicas .subtitulo, .caracteristicas-gas .texto-lasredesgas .subtitulo, .caracteristicas-gas .texto-caracteristicas .subtitulo, .consejos .texto-lasredesgas .subtitulo, .consejos .texto-caracteristicas .subtitulo { font-size: 14px; font-weight: 700; color: #164173; line-height: 20px; letter-spacing: 1px; margin-bottom: 25px; font-family: "Open Sans", sans-serif; }
+.las-redes-gas .texto-lasredesgas .listado, .las-redes-gas .texto-caracteristicas .listado, .caracteristicas-gas .texto-lasredesgas .listado, .caracteristicas-gas .texto-caracteristicas .listado, .consejos .texto-lasredesgas .listado, .consejos .texto-caracteristicas .listado { font-family: "Roboto", sans-serif; font-size: 12px; color: #164173; line-height: 15px; margin-bottom: 15px; }
+.las-redes-gas .texto-lasredesgas .listado span, .las-redes-gas .texto-caracteristicas .listado span, .caracteristicas-gas .texto-lasredesgas .listado span, .caracteristicas-gas .texto-caracteristicas .listado span, .consejos .texto-lasredesgas .listado span, .consejos .texto-caracteristicas .listado span { font-weight: 700; margin-right: 10px; }
+.las-redes-gas .cuadro-nopadding, .caracteristicas-gas .cuadro-nopadding, .consejos .cuadro-nopadding { padding-left: 0; }
+.las-redes-gas .cuadro-nopadding .texto-lasredesgas, .caracteristicas-gas .cuadro-nopadding .texto-lasredesgas, .consejos .cuadro-nopadding .texto-lasredesgas { background: url(../img/bg_01.jpg) no-repeat; padding-bottom: 41px; }
+.las-redes-gas .letrachica, .caracteristicas-gas .letrachica, .consejos .letrachica { font-family: "Roboto", sans-serif; font-weight: 500; font-variant: italic; font-size: 11px; font-style: italic; margin-top: 30px; }
+.las-redes-gas .img-nopadding, .caracteristicas-gas .img-nopadding, .consejos .img-nopadding { padding: 0 !important; padding-left: 15px !important; }
+.las-redes-gas .img-nopadding img, .caracteristicas-gas .img-nopadding img, .consejos .img-nopadding img { width: 100%; }
+
+.caracteristicas-gas, .consejos { background: #164173; }
+.caracteristicas-gas .texto-caracteristicas, .consejos .texto-caracteristicas { padding-left: 80px; padding-bottom: 100px; }
+.caracteristicas-gas .texto-caracteristicas .subtitulo, .consejos .texto-caracteristicas .subtitulo { color: #FFF; }
+.caracteristicas-gas .texto-caracteristicas .listado, .consejos .texto-caracteristicas .listado { color: #FFF; }
+.caracteristicas-gas .grafico, .consejos .grafico { margin: 80px 80px 0; }
+.caracteristicas-gas h5, .consejos h5 { margin-top: 20px; text-align: center; font-size: 12px; color: #FFF; }
+.caracteristicas-gas .colores, .consejos .colores { margin-left: 88px; }
+.caracteristicas-gas .colores li, .consejos .colores li { font-size: 12px; color: #FFF; font-family: "Roboto", sans-serif; margin: 10px 0; }
+.caracteristicas-gas .colores li i, .consejos .colores li i { margin-right: 15px; }
+
+.consejos { /* Rectangle 4: */ background-image: -webkit-linear-gradient(bottom, #1C5597 0%, #164173 100%); background-image: linear-gradient(0deg, #1C5597 0%, #164173 100%); box-shadow: 0px 0 15px 0 rgba(0, 0, 0, 0.22); text-align: center; padding: 80px; }
+.consejos .icons { margin: 35px 0 15px 0; }
+
+.bloques-finales { text-align: center; font-family: "Open Sans", sans-serif; color: #FFF; }
+.bloques-finales .izquierda, .bloques-finales .derecha { padding: 100px 80px; color: #FFF; }
+.bloques-finales .izquierda .titulo-blanco, .bloques-finales .derecha .titulo-blanco { font-size: 29px; font-weight: 600; text-transform: capitalize; margin-bottom: 10px; }
+.bloques-finales .izquierda .texto-bloques, .bloques-finales .derecha .texto-bloques { font-size: 13px; color: #FFF; margin-bottom: 30px; }
+.bloques-finales .izquierda .numero-bloques, .bloques-finales .derecha .numero-bloques { font-size: 27px; font-weight: 800; color: #FFF; margin-bottom: 10px; }
+.bloques-finales .izquierda .bajada-bloques, .bloques-finales .derecha .bajada-bloques { font-size: 15px; color: #FFF; }
+.bloques-finales .izquierda .bajada-bloques span, .bloques-finales .derecha .bajada-bloques span { font-weight: 700; }
+.bloques-finales .bloque-derecho { padding-left: 0 !important; padding-right: 15px !important; }
+.bloques-finales .bloque-derecho .derecha { background-color: #488BD9; box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.3); }
+.bloques-finales .bloque-izquierdo { padding-right: 0 !important; padding-left: 15px !important; }
+.bloques-finales .bloque-izquierdo .izquierda { background-color: #164173; box-shadow: inset 0 1px 4px 0 rgba(0, 0, 0, 0.3); }
+
+.banda-blanca { padding: 50px 30px; /* Solicita información: */ font-family: "Roboto", sans-serif; font-size: 11px; color: #164173; line-height: 15.19px; }
